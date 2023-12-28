@@ -1,7 +1,11 @@
 # MTB telemetry
+
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/bike%20profile.png)
+
 This is an homemade project of on bike data acquisition and exploitation to enhance bike's performance (yet to be updated)
 
 ## Material :
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/systeme%20complet.jpeg)
  - Raspberry pi 4B 1 Gb w/ 64 Gb sd card to run the OS and scripts
  - 8 Gb flash drive (auto mounted) to record on
  - 2 linear potentiometers (here 150mm and 100mm)
@@ -15,6 +19,5 @@ This is an homemade project of on bike data acquisition and exploitation to enha
  - Custom fitted hard and insulated case
  - On bike mounts for the brain and for the pots
 
-![alt text](http://url/to/img.png)
-
 ## Code :
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/26december/polts26dec/run%207.svg)
