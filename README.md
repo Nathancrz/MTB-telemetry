@@ -24,15 +24,15 @@ This is an homemade project of on bike data acquisition and exploitation to enha
 
 Both the data logger and the data analysis programs are written in Python (see the [Code folder](https://github.com/Nathancrz/MTB-telemetry/tree/main/Code))
 The analysis outputs the 9 following graphics :
- - travel during the run (both front and rear)
- - travel histogram
- - travel cloud of dots
- - bike balance during the run
- - suspensions' speed histogram
- - suspensions' speed cloud of dots
- - main triangle's acceleration during the run
- - bike balance histogram
- - general statistics
+ - [Travel during the run (both front and rear)](https://github.com/Nathancrz/MTB-telemetry/wiki/Travel-during-the-run-(both-front-and-rear))
+ - [Travel histogram](https://github.com/Nathancrz/MTB-telemetry/wiki/Travel-histogram)
+ - [Travel cloud of dots](https://github.com/Nathancrz/MTB-telemetry/wiki/Travel-cloud-of-dots)
+ - [Bike balance during the run](https://github.com/Nathancrz/MTB-telemetry/wiki/bike-balance-during-the-run)
+ - [Suspensions speed histogram](https://github.com/Nathancrz/MTB-telemetry/wiki/Suspensions-speed-histogram)
+ - [Suspensions speed cloud of dots](https://github.com/Nathancrz/MTB-telemetry/wiki/Suspensions-speed-cloud-of-dots)
+ - [Main triangle's acceleration during the run](https://github.com/Nathancrz/MTB-telemetry/wiki/Main-triangle's-acceleration-during-the-run)
+ - [Bike balance histogram](https://github.com/Nathancrz/MTB-telemetry/wiki/Bike-balance-histogram)
+ - [General statistics](https://github.com/Nathancrz/MTB-telemetry/wiki/General-statistics-graph)
 
 ## Noticeable results 
 ![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Evolution%20du%20temps.svg)
