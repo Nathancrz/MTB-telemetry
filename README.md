@@ -34,8 +34,15 @@ The analysis outputs the 9 following graphics :
  - [Bike balance histogram](https://github.com/Nathancrz/MTB-telemetry/wiki/Bike-balance-histogram)
  - [General statistics](https://github.com/Nathancrz/MTB-telemetry/wiki/General-statistics-graph)
 
-## Noticeable results 
+## Noticeable results :
+
+### Time drop :
 ![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Evolution%20du%20temps.svg)
 
 During the first batch of tests, the time significatively dropped to only 2s of my personnal best (although i was out of shape), but the result was hard to interpret.
 During the second batch, the time dropped rapidely with an unconfortable bike handling, which was later corrected to hit a new performance ceiling 11% below the previous one 
+
+### The Problem of acceleration :
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Acc%20moy.svg)
+
+As the confort increases, we could have expected the average acceleration to drop. But conter intuitively, it increased very significantly. One interpretation could be that confort helps taking higer accelerations with more ease and get back to speed faster after braking. Anyway, I still need to figure out how to analyze the acceleration data better.
