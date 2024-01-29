@@ -46,7 +46,7 @@ During the second batch, the time dropped rapidely with an unconfortable bike ha
 
 ![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/comparaison%20tuyau%20record.png)
 
-Even more interesting, this graph shows that the gap was dug very evenly through the run so the advantage given should be scalable to every segment.
+Even more interesting, this graph shows that the gap have been dug very evenly through the run so the advantage given should be scalable to every segment.
 
 ### The Problem of acceleration :
 ![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Acce%CC%81le%CC%81ration%203%20axes%20runs%201%2C%203%2C%207.png)
