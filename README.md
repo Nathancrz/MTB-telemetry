@@ -64,4 +64,5 @@ So with this idea in mind, we could compare the frame's acceleration to the GPS 
 ![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/fft%20moyenne%CC%81e%200%2C%203%2C%207.png)
 
 Finally, we can do a Fast Fourrier Transform (FFT) to show some in-depth evolution but, apart from a small change close to 15Hz, the smoothest the ride is, the higher the norm of each frequency of the FFT gets.
-Therefor, confort should not be looked through the vibrations of the frame. Two possible evolutions could be to rely on an actual speed sensor to measure the bike's speed, and to record the vivration going through the body of the rider, to see if the confort can be accurately measured.
+
+Therefore, confort should not be looked through the vibrations of the frame. Two possible evolutions could be to rely on an actual speed sensor to measure the bike's speed, and to record the vivration going through the body of the rider, to see if the confort can be accurately measured.
