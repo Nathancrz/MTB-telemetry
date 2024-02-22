@@ -22,7 +22,7 @@ This is an homemade project of on bike data acquisition and exploitation to enha
 Total price as shown : approx 275€
 
 ## Code :
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/26december/polts26dec/run%207.svg)
+![code's output for the run 7](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/26december/polts26dec/run%207%20v2.png)
 
 Both the data logger and the data analysis programs are written in Python (see the [Code folder](https://github.com/Nathancrz/MTB-telemetry/tree/main/Code))
 The analysis outputs the 9 following graphics :
