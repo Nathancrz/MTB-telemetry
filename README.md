@@ -26,6 +26,7 @@ As a cool looking GUI :
 ![code's gui](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/codes_screenshots/TIPE%20GUI%208.png)
 
 As a basic python script :
+
 ![code's output for the run 7](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/runs%2026%20dec/run%207.png)
 
 Both the data logger and the data analysis programs are written in Python (see the [Code folder](https://github.com/Nathancrz/MTB-telemetry/tree/main/Code))
@@ -70,3 +71,10 @@ So with this idea in mind, we could compare the frame's acceleration to the GPS 
 Finally, we can do a Fast Fourrier Transform (FFT) to show some in-depth evolution but, apart from a small change close to 15Hz, the smoothest the ride is, the higher the norm of each frequency of the FFT gets.
 
 Therefore, confort should not be looked through the vibrations of the frame. Two possible evolutions could be to rely on an actual speed sensor to measure the bike's speed, and to record the vivration going through the body of the rider, to see if the confort can be accurately measured.
+
+## Noticeable work and future features :
+
+- Made an algorithm to automatically detect and cut pauses in the run (crashes basically)
+- Working on an interesting hardtail version
+- significantly improved the variable mean function
+- developping a system of metrics to train an AI
