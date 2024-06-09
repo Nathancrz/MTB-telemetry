@@ -22,7 +22,11 @@ This is an homemade project of on bike data acquisition and exploitation to enha
 Total price as shown : approx 275€
 
 ## Code :
-![code's output for the run 7](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/26december/polts26dec/run%207%20v2.png)
+As a cool looking GUI :
+![code's gui](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/codes_screenshots/TIPE%20GUI%208.png)
+
+As a basic python script :
+![code's output for the run 7](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/runs%2026%20dec/run%207.png)
 
 Both the data logger and the data analysis programs are written in Python (see the [Code folder](https://github.com/Nathancrz/MTB-telemetry/tree/main/Code))
 The analysis outputs the 9 following graphics :
@@ -39,29 +43,29 @@ The analysis outputs the 9 following graphics :
 ## Noticeable results :
 
 ### Time drop :
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Evolution%20du%20temps.svg)
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/reglages/Evolution%20du%20temps%20v6.svg)
 
 During the first batch of tests, the time significatively dropped to only 2s of my personnal best (although i was out of shape), but the result was hard to interpret.
 During the second batch, the time dropped rapidely with an unconfortable bike handling, which was later corrected to hit a new performance ceiling 11% below the previous one with a very smooth ride.
 
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/comparaison%20tuyau%20record.png)
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/comparaison%20tuyau%20record.png)
 
 Even more interesting, this graph shows that the gap have been dug very evenly through the run so the advantage given should be scalable to every segment.
 
 ### The Problem of acceleration :
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Acce%CC%81le%CC%81ration%203%20axes%20runs%201%2C%203%2C%207.png)
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/acceleration/Acce%CC%81le%CC%81ration%203%20axes%20runs%201%2C%203%2C%207.png)
 
 As the confort increases, we could have expected the average acceleration to drop. But at first sight, it seems that nothing really changed.
 
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/Acc%20moy.svg)
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/acceleration/Acc%20moy%20%26%20max.jpg)
 
 But conter intuitively, the average increased very significantly. One interpretation could be that confort helps taking higer accelerations with more ease and get back to speed faster after braking.
 
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/comparaison%20accelerations%201%2C%203%2C%207%20(non%20cut).jpg)
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/acceleration/comparaison%20accelerations%201%2C%203%2C%207%20(non%20cut).jpg)
 
 So with this idea in mind, we could compare the frame's acceleration to the GPS acceleration to phase out the "speed" from the recording and only get the vibrations but the latest runs still top the measures.
 
-![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/testruns/fft%20moyenne%CC%81e%200%2C%203%2C%207.png)
+![alt text](https://github.com/Nathancrz/MTB-telemetry/blob/main/pictures/acceleration/fft%20moyenne%CC%81e%200%2C%203%2C%207%20v2.png)
 
 Finally, we can do a Fast Fourrier Transform (FFT) to show some in-depth evolution but, apart from a small change close to 15Hz, the smoothest the ride is, the higher the norm of each frequency of the FFT gets.
 
