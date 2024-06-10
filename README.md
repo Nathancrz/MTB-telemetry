@@ -75,6 +75,7 @@ Therefore, confort should not be looked through the vibrations of the frame. Two
 ## Noticeable work and future features :
 
 - Made an algorithm to automatically detect and cut pauses in the run (crashes basically)
+- planning to add a geometry tool into the gui
 - Working on an interesting hardtail version
 - significantly improved the variable mean function
 - developping a system of metrics to train an AI
